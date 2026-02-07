@@ -8,7 +8,10 @@ import 'package:news_app/splash/splash_screen.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
+  
   await PreferencesManager().init();
+  // PreferencesManager().clear();
+  
   runApp(const MyApp());
 }
 

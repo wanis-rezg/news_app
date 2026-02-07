@@ -4,6 +4,7 @@ import 'package:news_app/core/theme/light_color.dart';
 ThemeData lightTheme = ThemeData(
   useMaterial3: true,
   brightness: Brightness.light,
+  primaryColor: LightColor.primaryColor,
   
         colorScheme: ColorScheme.light(
      
